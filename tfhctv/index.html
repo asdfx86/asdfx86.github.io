@@ -14,7 +14,7 @@
         if (Hls.isSupported()) {
             var hls = new Hls();
             
-            hls.loadSource('asdfx86.github.io/tfhctv/s/stream.m3u8');
+            hls.loadSource('s/stream.m3u8');
             hls.attachMedia(video);
             hls.on(Hls.Events.MANIFEST_PARSED, function() {
             video.play();
@@ -26,7 +26,7 @@
         // Note: it would be more normal to wait on the 'canplay' event below however on Safari (where you are most likely to find built-in HLS support) the video.src URL must be on the user-driven
         // white-list before a 'canplay' event will be emitted; the last video event that can be reliably listened-for when the URL is not on the white-list is 'loadedmetadata'.
         else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-            video.src = 'asdfx86.github.io/tfhctv/s/stream.m3u8';
+            video.src = 's/stream.m3u8';
             video.addEventListener('loadedmetadata', function() {
             video.play();
             });
