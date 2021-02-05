@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T06:00:53.437Z" agent="5.0 (Linux; Android 10; vivo 2018) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.99 Mobile Safari/537.36" version="14.2.9" etag="P-aCFx8ARsPKxI4SIxtd" type="github"><diagram id="vvIa-QjcJDKoIjQ0uzmr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-05T07:05:53.191Z" agent="5.0 (Linux; Android 10; vivo 2018) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.99 Mobile Safari/537.36" etag="cy_ZvBr-cV0Nl3YDQ16U" version="14.2.9" type="github">
+  <diagram id="vvIa-QjcJDKoIjQ0uzmr" name="Page-1">
+    <mxGraphModel dx="1026" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ei-6fnnDZALLyX5UDYKj-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ei-6fnnDZALLyX5UDYKj-1" target="ei-6fnnDZALLyX5UDYKj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei-6fnnDZALLyX5UDYKj-1" value="START" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ei-6fnnDZALLyX5UDYKj-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ei-6fnnDZALLyX5UDYKj-3" target="ei-6fnnDZALLyX5UDYKj-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei-6fnnDZALLyX5UDYKj-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ei-6fnnDZALLyX5UDYKj-9" target="ei-6fnnDZALLyX5UDYKj-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei-6fnnDZALLyX5UDYKj-9" value="System.out.print(&quot;Enter your first name: &quot;);" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="273" y="240" width="281" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ei-6fnnDZALLyX5UDYKj-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ei-6fnnDZALLyX5UDYKj-12" target="ei-6fnnDZALLyX5UDYKj-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei-6fnnDZALLyX5UDYKj-12" value="firstname = scan.nextLine();" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="320" width="194" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ei-6fnnDZALLyX5UDYKj-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ei-6fnnDZALLyX5UDYKj-14" target="ei-6fnnDZALLyX5UDYKj-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei-6fnnDZALLyX5UDYKj-14" value="System.out.print(&quot;Enter your last name: &quot;);" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="277" y="400" width="272" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ei-6fnnDZALLyX5UDYKj-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ei-6fnnDZALLyX5UDYKj-16" target="ei-6fnnDZALLyX5UDYKj-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei-6fnnDZALLyX5UDYKj-16" value="lastname = scan.nextLine();" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="480" width="194" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ei-6fnnDZALLyX5UDYKj-3" value="String firstname, lastname;&lt;br&gt;Scanner scan = new Scanner(System.in);" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="120" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ei-6fnnDZALLyX5UDYKj-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ei-6fnnDZALLyX5UDYKj-19" target="ei-6fnnDZALLyX5UDYKj-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei-6fnnDZALLyX5UDYKj-19" value="System.out.println( &quot;Hello\n&quot; + firstname + &quot; &quot; + lastname);" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="309" y="560" width="209" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ei-6fnnDZALLyX5UDYKj-23" value="START" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="354" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
